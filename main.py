@@ -13,6 +13,7 @@ screen.title("The Ping Pong Game")
 screen.listen()
 screen.tracer(0)
 
+
 paddle_left = Paddle((-350, 0))
 paddle_right = Paddle((350, 0))
 ball = Ball()
